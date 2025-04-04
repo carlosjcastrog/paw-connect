@@ -8,7 +8,6 @@ export default function Menu() {
     { label: "Inicio", href: "/" },
     { label: "Servicios", href: "/servicios" },
     { label: "Adopción", href: "/about" },
-    { label: "Contacto", href: "/contacto" },
   ];
 
   const [isOpen, setIsOpen] = useState(false);
